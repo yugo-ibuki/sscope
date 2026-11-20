@@ -1,3 +1,17 @@
 # 原則すべて除外し、CLI用ファイルの作成時に個別に許可する。
 *
 !/.gitignore
+!/Cargo.toml
+!/Cargo.lock
+!/src/
+!/src/main.rs
+!/src/agents.rs
+!/src/scan.rs
+!/src/copilot.rs
+!/src/codex.rs
+!/src/pi.rs
+!/src/rpc.rs
+!/src/settings.rs
+!/tests/
+!/tests/cli.rs
+!/README.md
